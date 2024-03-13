@@ -7,7 +7,8 @@
     "start": "node ./dist/rutina.app.js",	
     "dev": "nodemon ./src/rutina.app.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "vercel build": "tsc"
   },
   "author": "",
   "license": "ISC",
