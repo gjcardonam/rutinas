@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node src/index.ts",
-    "dev": "nodemon src/index.ts",
+    "start": "ts-node src/rutina.app.ts",
+    "dev": "nodemon src/rutina.app.ts",
     "build": "tsc",
     "vercel-build": "echo Build for Vercel"
   },

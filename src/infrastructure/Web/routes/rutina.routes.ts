@@ -18,6 +18,7 @@ router.get('/rutinas/', rutinaController.getAllRutinas);
 router.post('/rutinas/', rutinaController.createRutina);
 router.put('/rutinas/:uuid', rutinaController.updateRutina);
 router.delete('/rutinas/:uuid', rutinaController.deleteRutina);
+router.get('/', (req, res) => { res.send('Hello World!') });
 
 
 export { router };
